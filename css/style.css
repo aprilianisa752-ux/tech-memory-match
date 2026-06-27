@@ -1,0 +1,60 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+}
+
+/* Container */
+.container {
+    text-align: center;
+}
+
+/* Judul */
+h1 {
+    font-size: 52px;
+    margin-bottom: 15px;
+}
+
+/* Deskripsi */
+p {
+    font-size: 20px;
+    color: #cbd5e1;
+    margin-bottom: 35px;
+}
+
+/* Tombol */
+button {
+    background: #2563eb;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+
+    padding: 15px 35px;
+
+    font-size: 20px;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* Efek saat disentuh mouse */
+button:hover {
+    transform: scale(1.05);
+    background: #3b82f6;
+    box-shadow: 0 0 20px #3b82f6;
+}
