@@ -58,3 +58,57 @@ button:hover {
     background: #3b82f6;
     box-shadow: 0 0 20px #3b82f6;
 }
+/* ===========================
+   GAME BOARD
+=========================== */
+
+.game-container{
+    text-align:center;
+    padding:40px;
+}
+
+#gameBoard{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,100px);
+
+    gap:15px;
+
+    justify-content:center;
+
+    margin-top:30px;
+
+}
+
+.card{
+
+    width:100px;
+
+    height:100px;
+
+    background:#2563eb;
+
+    border-radius:12px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:40px;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+.card:hover{
+
+    transform:scale(1.05);
+
+}
